@@ -1,0 +1,264 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="Compare-Dateien/filelist.xml">
+<title>Function Arry</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Me</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Wolfgang Ehrhardt</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:Created>2004-09-20T17:17:00Z</o:Created>
+  <o:LastSaved>2004-10-13T14:56:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>79</o:Words>
+  <o:Characters>498</o:Characters>
+  <o:Lines>4</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>576</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:DoNotHyphenateCaps/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>6 pt</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>6 pt</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>3</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:DoNotShadeFormData/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+</head>
+
+<body lang=DE style='tab-interval:35.4pt;text-justify-trim:punctuation'>
+
+<div class=Section1>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><o:p>&nbsp;</o:p></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:10.6pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr style='mso-yfti-irow:0;height:12.0pt'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;background:aqua;padding:0cm 3.5pt 0cm 3.5pt;
+  height:12.0pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:14.0pt'>Function Arry.Compare<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:12.0pt'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;background:silver;padding:0cm 3.5pt 0cm 3.5pt;
+  height:12.0pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b>Vergleicht 2 Arrays miteinander, ob diese identisch
+  sind<o:p></o:p></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;background:aqua;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:14.0pt'>Deklaration<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;background:silver;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span lang=EN-GB style='font-size:11.0pt;color:blue;
+  mso-ansi-language:EN-GB'>Public Function Compare(sArray1 As Variant, _<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span lang=EN-GB style='font-size:11.0pt;color:blue;
+  mso-ansi-language:EN-GB'><span
+  style='mso-spacerun:yes'>                                             </span></span></b><b><span
+  style='font-size:11.0pt;color:blue'>sArray2 As Variant) As Boolean<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border-top:none;
+  border-left:solid windowtext 1.0pt;border-bottom:solid black 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-alt:solid windowtext .75pt;mso-border-bottom-alt:solid black .75pt;
+  background:aqua;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:14.0pt'>Argumente<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=161 valign=top style='width:120.5pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+  background:silver;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'>sArray1<o:p></o:p></span></b></p>
+  </td>
+  <td width=369 valign=top style='width:276.4pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black .75pt;mso-border-left-alt:solid black .75pt;
+  mso-border-alt:solid black .75pt;background:silver;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'>Array, das mit sArray2
+  verglichen wird<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=161 valign=top style='width:120.5pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+  background:silver;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'>sArray2<o:p></o:p></span></b></p>
+  </td>
+  <td width=369 valign=top style='width:276.4pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black .75pt;mso-border-left-alt:solid black .75pt;
+  mso-border-alt:solid black .75pt;background:silver;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'>Array, das mit sArray1
+  verglichen wird<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .75pt;mso-border-alt:solid windowtext .75pt;
+  mso-border-top-alt:solid black .75pt;background:aqua;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:14.0pt'>Rückgabewert<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes'>
+  <td width=529 colspan=2 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;background:silver;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'>True wenn sArray1 und
+  sArray2 identisch sind<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><o:p>&nbsp;</o:p></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:10.6pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr style='mso-yfti-irow:0;height:12.0pt'>
+  <td width=529 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;background:lime;padding:0cm 3.5pt 0cm 3.5pt;
+  height:12.0pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:14.0pt'>Beispiel<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:12.0pt'>
+  <td width=529 valign=top style='width:14.0cm;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;background:white;padding:0cm 3.5pt 0cm 3.5pt;
+  height:12.0pt'>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>Dim A As Variant, B As Variant<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>Dim Ar As New WindowAPI.Arry<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>ReDim A(0)<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>ReDim B(0)<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>A(0) = &quot;Hello&quot;<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>B(0) = &quot;Hello&quot;<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+  text-autospace:none'><b><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'>    </span>MsgBox Ar.Compare(A, B)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
