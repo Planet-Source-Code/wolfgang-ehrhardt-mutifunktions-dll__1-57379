@@ -1,0 +1,25 @@
+Titel:    Multifunktions DLL
+Autor:    Wolfgang Ehrhardt
+Email:    woeh@gmx.de
+Homepage: woeh.tripod.com
+
+
+
+~~~ Multifunktions DLL ~~~
+
+Diese ActiveX DLL beinhaltet über 500 Funktionen und Subs
+Die Funktionen und Subs sind sortiert in 27 Kategorien
+(z.B. finden sich in der Kategorie 'Grafic' Funktionen für Grafische Funktionen)
+
+Des weiteren verfügt die DLL über ein eigenes Hilfesystem,
+in dem jede Funktion detailiert beschrieben wird inkl. Beispielen
+
+Die DLL ist leicht verständlich und übersichtlich geschrieben.
+Eine Einarbeitung dürfte recht einfach sein.
+
+Die DLL ist genial zum einbinden in größere Projekte, da sie eine
+Menge programmierarbeit abnimmt.
+Natürlich kann man DLL auch als Nachschlagewerk für
+Standard-Funktionen genutzt werden.
+
+Ich wünsche viel Spaß mit der DLL

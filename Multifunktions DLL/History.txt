@@ -1,0 +1,825 @@
+21.11.2004
+	Added  Drive.Get_CDROM
+	Edited System.Get_ProcessList
+
+19.11.20004
+	Added Forms.ShowSysMenu
+
+18.11.2004
+	Added File.RegisterExtension
+
+17.11.2004
+	Ich habe noch einmal sämtliche Funktionen durchprobiert und
+	eine neue Hilfe geschrieben
+	Alle Funktionen uns Subs liefen bei mir
+
+09.11.2004
+	Added File.ReadAsByte
+	Added File.SaveAsByte
+
+06.11.2004
+	Added System.User_LogOff
+
+03.11.2004
+	Added Network.Get_DialUPlist
+
+02.11.2004
+	Added mSTring.isValidSingle
+
+01.11.2004
+	Added Arry.ReadBinary
+	Added Arry.SaveBinary
+
+05.09.2004
+	Added Controls.WebBrowser_GetSource
+
+22.09.2004
+	Added Network.Get_Gateway
+
+21.09.2004
+	Added Controls.Control_AutoSizeByText
+	Added Controls.Control_GetTextSize
+	Added Grafic.Picture_GetSize
+	Added Network.Adapter_Count
+	Added Window.Get_TextSize
+
+	Removed Grafic.Get_BitmapDimension
+
+	Renamed Network.CloseAllIE           -> IE_CloseAll
+	Renamed Network.Get_IEversion        -> IE_GetVersion
+	Renamed Network.Get_IEstartSite      -> IE_GetStartSite
+	Renamed Network.Get_IEurl            -> IE_GetURL
+	Renamed Network.Get_InstalledNetworkCards -> Adapter_GetInstalled
+	Renamed Network.Get_MACadress        -> Adapter_GetMACadress
+	Renamed Network.Get_TransferredBytes -> Adapter_GetTransferredBytes
+	Renamed Network.Set_IEstartSite      -> IE_SetStartSite
+	Renamed Network.Show_IEautoComplete  -> IE_ShowAutoComplete
+	
+18.09.2004
+	Added Network.CloseAllIE
+	Added Network.Get_IEurl
+	Added Window.Get_AllHwndByClass
+	Added Window.Get_AllHwndByText
+
+17.09.2004
+	Added Window.Get_WindowInfo
+
+16.09.2004
+	Added Directory.DirectoryInfo
+	Added Mathematics.ByteTo
+
+15.09.2004
+	Added System.Get_RegOwner
+	Added Window.Get_VisibleTasks
+
+----------------------------------------------
+
+10.09.2004
+	Ein neues Prunkstück *fg*
+	Added LB_CB.LB_ListEdit
+
+07.09.2004
+	Added Math.Incr
+	Added Math.Decr
+	Added System.Get_ComputerName
+	Added System.Set_ComputerName
+
+02.09.2004
+	Added File.FilesToClipboard
+	Added File.Get_ExtendedFileInfo
+
+31.08.2004
+	Added Arry.FindPhrase
+	Added Controls.CheckBox_AsOptionButton	
+	Added Controls.CheckBox_GetSelected
+	Added Desktop.DesktopIconsShow
+	Added System.TaskIsActive
+	Added System.TempDirectotyClear
+
+	Renamed mString.Str_EnCrypt -> mString.EnCrypt
+	Renamed mString.Str_Decrypt -> mString.Decrypt
+
+	Neue interne Funktin sEnCrypte & s DeCrypt
+        (Macht die Bas modCryptText.bas überflüssig)
+
+	Removed mString.Base64_EncodeStr
+	Removed mString.Base64_DecodeStr
+
+	(Macht die Bas basRadix64.bas überflüssig)
+
+30.08.2004
+	Added Multimedia.SetVolume
+	Added Multimedia.Video_PlayFullScreen
+
+28.08.2004
+	Added Office.Word_OpenDocument
+	Added Office.Word_Start
+
+26.08.2004
+	Added Misc.Lotto
+
+	Removed Misc.RUN_MS_Word
+	
+	Edited Arry.Find
+	Edited Arry.Sort 
+	Edited LBCB.ToArray
+
+25.08.2004
+	Added Controls.ListBox_AllowResize
+	Added Controls.OptionButton_GetIndex
+	Added Controls.TextBox_AllowResize
+
+24.08.2004
+	Added Directory.DirectoryDeleteFiles
+	Added Directoty.DirectoryDeleteSubDirs
+
+	Edited Directory.Delete
+	
+23.08.2004
+	Added Arry.Get_MaxValue
+	Added Arry.Get_MinValue
+	Added File.CompactPath
+	
+	Added New Class Office
+
+21.08.2004
+	Added System.CPUload
+	
+	Edited Desk.SystemPanel
+
+20.08.2004
+	Added System.Get_DLLpath
+	Added System.IsClassRegistered
+
+19.08.2004
+	Added LBCB.LB_GetIndexUnderMouse
+	Added LBCB.LB_GetItemUnderMouse
+
+18.08.2004
+	Added System.Get_ServicePack
+
+16.08.2004
+	Added File.SFV_Compare
+	Added File.SFV_CreateSFVfile
+	Added File.SFV_GetSFVFromFile
+	Added File.SFV_Validate
+	
+	Removed File.CRC32_Compare
+	Removed File.CRC32_GetCRC32FromFile
+	Removed File.CRC32_Validate
+
+15.08.2004
+	Added Desk.WriteOnDesktop
+	Added Grafic.PictureBrightness
+	Added Grafic.PictureEmboss
+	Added Grafic.PictureContrast
+	Added Network.Get_InstalledNetworkCards
+	Added Network.Get_TransferredBytes
+	
+	Removed Arry.isArray
+	
+	Editid Grafic.PictureToGray
+	Edited LBCB.Sort
+
+14.08.2004
+	Renamed Drive.ShowFormat_Dialog -> Drive.Format
+	
+	Edited  Drive.Format
+
+07.08.2004
+	Added Misc.sDebug
+
+02.08.2004
+	Added Directory.DelTree
+
+30.07.2004
+	Added Array.Add
+	Added Aray.AddToLBCB
+	Added Array.Compare
+	Added Array.Find
+	Added Controls.Clipboard_GetFiles
+	Added Controls.Flex_ColItemExist
+	Added Controls.Flex_ColorRow
+	Added Controls.Flex_DeleteValue
+	Added Controls.Flex_Find
+	Added Controls.Flex_ItemExist
+	Added Controls.Flex_Remove
+	Added Controls.Flex_RowItemExist
+	Added Controls.Flex_SetColAligment
+	Added Controls.Flex_Sort
+	Added Controls.Label_GetTextDimensions
+	Added Controls.PictureBox_Fade
+	Added Controls.PictureBox_FadingText
+	Added Controls.PictureBox_ScrollText
+	Added Controls.ProgressBar_SetColor
+	Added Desktop.Get_WorkAreaDimensions
+	Added Desktop.Show
+	Added Dialog.FontDlg
+	Added Directory.Delete
+	Added Directory.DirectoryIsAccesable
+	Added File.BinCopy
+	Added File.Get_PrefixFromPath
+	Added File.isInUse
+	Added Forms.IsModal
+	Added Forms.ScrollCaption
+	Added Forms.ShowAnimatedCursor
+	Added HardWare.COMport_GetFirstFreePort
+	Added HardWare.COMport_GetInstalledCOMPorts
+	Added HardWare.COMport_ConfigureDLG
+	Added HardWare.COMport_GetFirstFreePort
+	Added HardWare.Joystick_Count
+	Added HardWare.JoyStick_GetInfo
+	Added HardWare.Joystick_isPresent
+	Added LBCB.CB_AutoComplete
+	Added LBCB.CountItem
+	Added LBCB.LB_GetSelectedItems
+	Added LBCB.LB_GetSelectedItemsText
+	Added LBCB.CB_SetDropDownHeight
+	Added LBCB.FindPhrase
+	Added LBCB.LB_RemoveSelectedItems
+	Added LBCB.LB_ScrollBarIsVisible
+	Added LBCB.Set_ListIndex
+	Added Mathematics.DWord
+	Added Mathematics.HiWord
+	Added Mathematics.LoWord
+	Added Misc.Time_Format
+	Added Mouse.isMoving
+	Added mString.CheckSum
+	Added Multimedia.Beep
+	Added Multimedia.PCspeaker
+	Added Multimedia.PCspeakerIsEnabled
+	Added Network.Get_DynamicDNS
+	Added Network.Get_DynamicIP
+	Added Network.Get_HostName
+	Added Network.Get_LocalPCs
+	Added Network.Get_NetTime
+	Added Network.HTTP_CanConnect
+	Added Network.HTTP_isOnline
+	Added Network.IE_AddFavorite
+	Added Network.IPtoName
+	Added Network.NameToIP
+	Added RTF.ColorizeWords
+	Added RTF.sPrint
+	Added System.Font_Register
+	Added System.XPstyleSupported
+	Added Text.Text_PrintBlocksatz
+	Added Window.Get_Tasklist
+
+08.04.2004
+	Ich habe die komplette DLL überarbeitet und alle Bugs gefixt,
+	sowie für JEDE Funktion ein kurzes Beispiel geschrieben.
+	Die Beispiele sind in der Hilfe vervügbar
+
+	Des weiteren sind ein paar Funktionen und Subs hinzugekommen
+
+21.02.2004
+	Added Arry.AddArray
+	Added Drive.DriveWxist
+
+17.02.2004
+	Added Controls.ControlLoad
+	Added Controls.ControlSace
+	Added Forms.AllControlsLoad
+	Added Forms.AllControlsSave
+
+16.02.2004
+	Added File.Binary_Read
+
+07.02.2004
+	Added Grafic.PictureInvert
+	Added Grafic.PictureRotate
+	Added Grafic.PictureTurn
+	Added Grafic.PictureZoom
+
+	Removed Grafic.Bitmap_Rotate
+	Removed Grafic.Bitmap_Zoom
+
+06.02.2004
+	Added Grafic.PictureColor
+
+05.02.2004
+	Added Grafic.PictureToGray
+
+01.02.2004
+	Added Text.TextFile_RemovLine
+	
+	Added File.Split
+	Added File.Join
+	
+	Edited Arry.ToString
+	Edited Text.TextFile_Read
+
+31.01.2004
+	Renamed Window.isHwndAlive ~> isHwnd
+
+30.01.2004
+	Added Arry.DeleteIndex
+	Added Arry.DeleteValue
+	Added LB_CB.ToString
+	Added LBCB.LoadFromFile
+	Added LBCB.LoadFromINI
+	Added LBCB.SaveToFile
+	Added LBCB.SaveToINI
+	Added Win.Get_TaskWindows
+	Added Win.Get_ChildWindows
+	Added Win.isHwnd
+
+	Removed LBCB.WriteToTextFile
+	Removed LBCB.WriteToFile
+	Removed LBCB.ReadFromFile
+ 
+29.01.2004
+	Added Arry.AddFromLBCB
+	Added Desktop.SnapShot
+	Added Hardware.Printer_List
+	Added Hardware.Printer_Select
+	Added Hardware.Printer_DeleteDocsFromQueue
+
+28.01.2004
+	Added #Class# Controls
+	Added #Class# Arry
+
+	Added Controls.TextBox_AllowAlphaOnly
+	Added Controls.TextBox_AllowNumOnly
+	Added Hardware.Monitor_Sleep
+	Added mString.GetNum
+
+	Moved Misc.Array_isArray ~> Arry.isArray
+	Moved Misc.Array_isDim   ~> Arry.isDim
+	Moved Misc.Array_Search  ~> Arry.Search
+	Moved Misc.Array_Shuffle ~> Arry.Shuffle
+	Moved Misc.Array_Sort    ~> Arry.Sort
+	Moved Misc.ArrayToString ~> Arry.ToString
+
+	Moved Misc.SetButtonAlignment ~> Controls.CommandButton_SetAlignment
+
+27.01.2004
+	Added Grafic.StretchToPicBox
+	Added.Grafix.Stretch
+	Added Grafic.PictureToIcon
+	Added Grafic.vListImage (Viruelles ListImage-Control)
+
+	Added Misc.Array_Shuffle
+
+25.01.2004
+	Added Misc.SetButtonAlignment
+
+24.01.2004
+	Added Desktop.SystemDirOpen
+	Added Desktop.isXPthemeActive
+	Added Desktop.XPthemeEnable
+
+	Edited Desktop.SystemPanel
+
+23.01.2004
+	Edited System.RegisterComponents (Verbesserte Routine)
+	Edited System.SystemDirectory    (Erweitert)
+	Edited File.ShortCut_Create      (Erweitert)
+
+22.01.2004
+	Added mString.isValidInteger
+	Added mString.isValidLong
+
+	Edited LB_CB.Clone (Fehlerhaft)
+	Edited Shell.DOS_Execute (gegen bessere Routine eingetauscht)
+
+17.01.2004
+	Added Form.ShowControlsOnly
+
+15.01.2004
+	Added Forms.Form
+	Added Drive.DriveBox_Select
+	
+	Moved Forms.ShowInTaskbar ~> Forms.Form(SHOWINTASKBAR, .....)
+
+	Edited Dialog               (Jetzt ohne Modal)
+	Edited Forms.Find           (Fehlerhaft)
+	Edited Misc.About           (Verbesserung des Updates)
+	Edited Net.Hyperlink_Create (Fehlerhaft)
+
+14.01.2004
+	Added Desktop.DeskTopHwnd
+	Added Dialog.ColorDlg
+	Added Grafic.PixelToTwip
+	Added Grafic.TwipsToPixel
+	Added Hardware.CPUinfo
+	Added Hardware.CPUspeed
+	Added Misc.ArrayToString
+	Added Mouse.Center
+
+10.01.2004
+	Added System.Get_UserLogInState
+	Added Forms.FormPos_Load
+	Added Forms.FormPos_Save
+
+09.01.2004
+	Added Class Dialog
+
+	Added Dialog.PasswordDlg
+
+	Moved Desktop.RUN_Execute  ~> Dialog.Execute
+	Moved Desktop.RUN_FindDialog ~ Dialog.Find
+	Moved Desktop.WindowsShutDown ~> Dialog.WindowsShutDown
+	Moved Misc.WindowsAboutBox ~> Dialog.AboutBox
+	Moved Misc.Ask ~> Dialog.Ask
+	Moved Misc.InputBox ~> Dialog.InputBox
+	Moved Misc.MsgBox ~> Dialog.MsgBox
+
+	Renamed Desktop.AllWindows_Minimize ~> Desktop.Windows_Minimize
+
+08.01.2004
+	Added Hardware.COMPort_Exist
+	Added Hardware.CAPSisEnabled
+	Added Hardware.NUMisEnabled
+	
+	Added Misc.DayOfMonthCount
+	Added Misc.Convert_UnixToDate
+	Added Misc.PasswordDialog
+	
+	Added Desktop.RecentDocs
+	
+	Added Grafix.PixelToTwips
+	Added Grafic.TwipsToPixel
+
+	Removed Desktop.RecentDocs_AddFile
+	Removed Desktop.RecentDocs_Clear
+
+03.01.2004
+	Added INI.ReadArray
+	Added INI.Remove_Sektion
+	Added INI.WriteArray
+	Added LB_CB.ReadFromFile
+	Added LB_CB.WriteToFile
+
+	Removed LB_CB.WriteToTextFile
+
+31.12.2003
+	Added Reg.RegEnum
+	Added Reg.RegEnumKey
+	Added Reg.RegEnumValue
+
+29.12.2003
+	Added Mouse.Get_MouseButtons
+
+28.12.2003
+	Added New Class FTP
+	
+	Added Forms.CreateFormFromPicture
+	Added Forms.FormMove
+	Added Forms.tFade
+	Added Window.tFade
+	Added Window.GetTransparenz
+	Added Window.SetTransparenz
+	Added FTP.Connect
+	Added FTP.DirectoryCreate
+	Added FTP.DirectoryRemove
+	Added FTP.Disconnect
+	Added FTP.DisconnectAll
+	Added FTP.Download
+	Added FTP.FileRemove
+	Added FTP.GetCurrentDirectory
+	Added FTP.GetFileList
+	Added FTP.GetLastResponse
+	Added FTP.Rename
+	Added FTP.SetCurrentDirectory
+	Added FTP.Upload
+
+27.12.2003
+	Removed Drive.VirtualDrive_Create
+	Removed Drive.VirtualDrive_Delete
+	Removed Drive.Get_FreeDiskSpace
+	Removed Drive.Get_TotalDiskSpace
+	Removed Drive.Get_UsedDiskSpace
+	Removed File.SC_CreateAutostartShortCut
+	Removed File.SC_CreateDesktopShortCut
+	Removed File.SC_CreateProgramsShortCut
+	Removed File.SC_CreateShortcutFromFile
+	Removed File.SC_CreateShortCut (interne Funktion)
+
+	Added Drive.VirtualDrive
+	Added Drive.Get_DiskSpace
+	Added Drive.Get_DriveByType
+	Added File.ShortCut_Create
+	Added Forms.Tile
+	Added Grafic.PictureBox_Tile
+	Added Misc.Get_WinSymbol
+	Added Misc.LogFile
+
+25.12.2003
+	Removed LB_CB.API_CB_GetListIndex
+	Removed LB_CB.API_LB_GetListIndex
+	Removed LB_CB.API_CB_SetListIndex
+	Removed LB_CB.API_LB_SetListIndex
+	Removed LB_CB.API_CB_AddItem
+	Removed LB_CB.API_LB_AddItem
+	Removed LB_CB.API_CB_DeleteItem
+	Removed LB_CB.API_LB_DeleteItem	
+	Removed LB_CB.API_CB_Clear
+	Removed LB_CB.API_LB_Clear
+
+	Renamed LB_CB.LBCB_AddFilesFromPath ~> LB_CB.AddFilesFromPath
+	Renamed LB_CB.LBCB_AddDirsFromPath  ~> LB_CB.AddDirsFromPath
+	Renamed LB_CB.LBCB_AddArray         ~> LB_CB.AddArray
+	Renamed LB_CB.LBCB_AddProcessList   ~> LB_CB.AddProcessList
+	Renamed LB_CB.LBCB_WriteToArray     ~> LB_CB.WriteToArray
+
+	Added LB_CB.GetListIndex
+	Added LB_CB.SetListIndex
+	Added LB_CB.AddItem
+	Added LB_CB_DeleteItem
+	Added LB_CB.Clear
+24.12.2003
+	Added LB_CB.CB_MaxLength
+	Added INI.Clear_INIsection
+	Added File.CABfile_Extract
+
+21.12.2003
+	Edited System.Get_OSname renamed in System.Get_WinVer
+
+	Added Mathematics.Pythag
+	Added mSting.Get_RandomString
+
+18.12.2003
+	Added LB_CB.vListBox (Virtuelle ListBoxen .))
+17.12.2003
+	Added Desktop.Set_WindowsDefaultMouseCursor
+	Added Menu.AddPictureToMenu
+
+16.12.2003
+	Edited File.TempFile_Create (fehlerhaft)
+
+	Added Shell.DOS_Execute
+	Added Network.DOS_IPconfig
+	Added Network.DOS_Netstat
+	Added Directory.DOS_DirInfo
+
+15.12.2003
+	Edited mString.CountStringInString (fehlerhaft)
+	
+	Removed Network.DownloadFile
+
+	Added Update Support ~> Misc.About
+
+	Added Network.INetFile_Read
+	Added Network.INetFile_Save
+
+13.12.2003
+	Added Mathematics.Quersumme
+	Added mString.Str_Cut
+
+11.12.2003
+	Added System.Get_BootMode
+	Added Mathematics.Fakultaet
+
+	Edited Drives.Get_DriveType
+
+06.12.2003
+	Added Desktop.Wallpaper_GetPath
+	Added Desktop.StartButton_Click
+
+02.12.2003
+	Added Network.Get_MACadress
+	Added Network.BroadcastMessage
+	Added File.Get_FileTime
+	Added Mouse.BlockUserInput
+	Added System.AutoRun
+	Added System.Deactivate_ALTgrStrgDel
+
+30.08.2003
+	Alle Menu.Set_MenuColor-Funktionen wurden in
+	Menu.Set_MenuColor gepreßt
+
+27.08.2003
+	Added mSTing.Str_toASC
+
+23.08.2003
+	Added Network.Get_MACadress
+
+17.08.2003
+	Added Drive.isDriveReady
+
+14.08.2003
+	Alle Desktop.Run_....SystemPanel ersetzt durch
+	Desktop.SystemPanel	
+
+10.08.2003
+	Added Network.Hyperlink_Create
+	Added System.Dir_GetCommonProgramFilesDir
+	Added System.Dir_GetAllUsersProfileDir
+	Added System.Get_DOScommandPath
+	Added System.Get_SystemDrive
+	Added System.Dir_GetUserProfileDir
+
+	Sämtlich 'Get_Dir...' Funktionen wurden durch
+	System.SystemDirectory ersetzt
+
+09.08.2003
+	Added Forms.Find_Form
+	Added LB_CB.AddItem_WithoutDouble
+	Added Windows.isHwndAlive
+
+08.08.2003
+	Added Misc.InputBox
+	Added Misc.isLeapYear
+	Added RTF.RTFtxt_Operation
+
+	Edited mString.CountStringInString
+	Edited mString.Str_toCHR
+	Edited Text.TextFile_AddText
+
+	Removed Misc.uInput
+
+05.08.2003
+	Added Sound.GetPlayTime
+	Added Sound.isFilePlayable
+	Added Sound.PlayMultimediaFile
+	
+	Removed Sound.PlayMIDI
+	Removed Sound.PlayMP3
+	Removed Sound.PlayWave
+
+04.08.2003
+	Renamed Misc.StopClock -> Misc.msStopClock
+	Added   Misc.StopClock
+
+	Ganz besonders stolz bin .)
+	hab es geschafft sämtliche File/DirectoryFunktionen
+ 	im 4 Funktionen zu pressen .)
+
+	Added Directory.DirectroryOperation
+	Added Directory.DirectroryOperationUsingShell
+	Added File.FileOperation
+	Added File.FileOperationUsingShell
+
+	Removed Directory.CopyFile
+	Removed Directory.CopyFileUsingShell
+	Removed Directory.KillFile
+	Removed Directory.KillFileUsingShell
+	Removed Directory.MoveFile
+	Removed Directory.MoveFileUsingShell
+	Removed Directory.Rename
+	Removed Directory.RenameUsingShell
+	Removed File.CopyFile
+	Removed File.CopyFileUsingShell
+	Removed File.KillFile
+	Removed File.KillFileUsingShell
+	Removed File.MoveFile
+	Removed File.MoveFileUsingShell
+	Removed File.Rename
+	Removed File.RenameUsingShell
+
+03.08.2003
+	Added File.Get_DirectoryFromPath
+	Added File.Get_FileFromPath
+	Added Grafic.Bitmap_Rotate
+	Added Grafic.Bitmap_Zoom
+	Added Text.Text_Print
+	Added Text.TextFile_Print
+
+	Edited Misc.StopClock
+
+30.07.2003
+	Added Desktop.ScreenSaver_Activate
+
+28.07.2003
+	Added Class Desktop.cls
+	Einige Funktionen wurden nach Desktop verschoben
+
+	Added Desktop.Wallpaper_Change
+	Added Desktop.Wallpaper_Clear
+	Added Drive.Get_FreeDiskSpace
+	Added Drive.Get_TotalDiskSpace
+	Added Drive.Get_UsedDiskSpace
+	Added Mouse.isMouseOverControl
+	Added Sound.hasSoundCard
+
+	Edited mString.CountStringInString
+	Edited Registry.RegValueSet
+
+25.07.2003
+	Added File.isEXERunning
+	Added LBCB.LBCB_AddArray
+	Added LBCB.LBCB_AddProcessList
+	Added LBCB.LBCB_WriteToArray
+	Added System.GetProcessList
+	
+	Renamed Misc.Quicksort -> Misc.Array_Sort
+
+24.07.2003
+	Das HileSystemwurde fertiggestellt
+	
+	Added File.CRC32_Compare
+	Added File.CRC32_GetCRC32FromFile
+	Added File.CRC32_Validate
+	Added System.RegisterComponents
+	Added Window.isTopParent
+
+	Removed Window.isChild
+	Removed Window.isParent
+
+21.07.2003
+	Added Mathematics.Convert_BinToDec
+	Added Mathematics.Convert_DecToHex
+	Added mString.Bas64_EncodeStr
+	Added mString.Bas64_DecodeStr
+	Added mString.CountStrInString
+	Added Text.TextFile_LineCount
+	Added Text.TextFile_ReadLine
+
+20.07.2003
+	Added Directory.CopyDirectory
+	Added Directory.CopyDirectoryUsingShell
+	Added Directory.isDirectoryEmpty
+	Added Directory.isDirectoryContainingDirs
+	Added Directory.isDirectoryContainingFiles
+	Added Directory.KillDirectory
+	Added Directory.KillDirectoryUsingShell
+	Added Directory.MoveDirectory
+	Added Directory.MoveDirectoryUsingShell
+	Added Directory.ReadDirectory
+	Added Directory.RenameDirectory
+	Added Directory.RenameDirectoryUsingShell
+	Added Files.KillFileUsingShell
+	Added Files.MoveFile
+	Added Files.MoveFileUsingShell
+	Added Files.RenameFile
+	Added Diles.RenameFileUsingShell
+
+	Removed Files.RecycleBin_Add
+
+19.07.2003
+	Added File.CopyFile
+	Added File.CopyFileUsingShell
+	Added File.MoveFile
+	Added File.MoveFileUsingShell
+	Added File.RecycleBin_Add
+	Added File.RenameFile
+	Added File.ShredderFile
+	Added System.RecycleBin_Clear
+	Added System.RecycleBin_ItemCount
+	Added System.RecycleBin_Size
+	Added System.RecycleBin_UpdateIcon
+
+18.07.2003
+	Added New Class MATHEMATICS
+
+	Added Forms.Center
+	Added Forms.Fade_Ranomized
+	Added Grafic.Convert_RGBtoLong
+	Added Grafic.Get_RandomizedColor
+	Added LBCB.LB_MouseMove
+	Added Mathematics.isPrime
+	Added Misc.Ask
+	Added Misc.WindowsAboutBox
+	Added Mouse.isUserClick
+	Added mString.str_toCHR
+	Added Window.Get_ActiveWindowTitle
+	Added Window.Freeze
+
+	Edited Forms.Move
+	Renamed File.Kill -> File.KillFile
+
+17.07.2003
+	Ich habe noch einmal alle Funktionen & Subs
+	zur besseren Übersicht umbenannt, teilweise
+	überarbeitet & verschoben.
+	
+	Falls jemand diese DLL benutzt hat, so findet
+	er alle Funktionen wieder (bissi suchen)
+
+16.07.2003
+	Added File.File_Compare
+	Added File.isFileOpen
+	Added Misc.Unix_TimeStamp
+	Added Shell.ExecuteAndWait
+	Added System.System_Shutdown
+
+15.07.2003
+	Added Misc.SearchArray
+	Added Misc.isArray
+
+14.07.2003
+	Added LB_CB.Set_ComboBoxList_Alignment
+	Added mString.Str_Reverse
+	Added System.Run_ControlPanel
+
+13.07.2003
+	Added Grafic.OLEtoRBG
+	Added Menu.SetMenuBarColor
+	Added Menu.SetMenuColor
+	Added Menu.SetSysMenuColor
+	Added Misc.isArrayDim
+	Added Misc.Roll_Cube
+	Added Misc.RUN_MS_Word
+	Added Misc.DecToBin
+	Added CLASS mString.cls
+	Added mString.isValidNum
+	Added mString.isValidAlpha
+	Added mString.Str_toANSI
+	Added mString.Str_toASCII
+	   
+        Moved Text.Text_DeCrypt -> mString.Str_Decrypt
+	Moved Text.Text_EnCrypt -> mString.Str_EnCrypt
+
+12.07.2003
+	Eröffnung der ersten History
